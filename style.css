@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+	padding: 0;
+    background-color: black;
+    color: white;
+}
+.container{
+    width: 97.3%;
+    height: 100%;
+    margin: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+label{
+	display: block;
+	margin-bottom: 5px;
+}
+input {
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff; /* Sets the text color to white */
+    padding: 5px; /* Optional: Adds some padding for better spacing */
+    font-size: 16px; /* Optional: Sets the font size for the text */
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+}
+.form > div{
+    width: 30%;
+}
+#submit{
+	border: 0;
+	margin-bottom: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+	width: 30vmin;
+	height: 8vmin;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.message{
+    margin-left: 0;
+    height: 25px;
+    font-size: 18px;
+}
+table{
+    width: 100%;
+}
+
+table tr {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.data {
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 59px;
+    width: 539px;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    justify-content: space-between;
+}
+
+
+#cell{
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 400;
+ }
+
+table tr button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    width: 162px;
+    height: 41px;
+    font-size: 18px;
+    font-weight: 300PX;
+}
+
+button {
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
